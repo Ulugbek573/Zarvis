@@ -1,0 +1,14 @@
+.dashboard-page {
+  margin-left: 210px;     
+  padding-top: 72px;      
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+
+  background: #f6f7fb;
+  min-height: 100vh;
+}
+
+.dashboard-page {
+  padding-top: 8px; 
+}

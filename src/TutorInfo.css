@@ -1,0 +1,148 @@
+.tutor-page {
+  background: linear-gradient(180deg, #f6f8ff, #eef2ff);
+}
+
+.tutor-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+
+}
+
+.tutor-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin-left: 40px;
+}
+
+.edit-btn {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tutor-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px 24px;
+  display: flex;
+  gap: 24px;
+  max-width: 640px;
+  box-shadow: 0 12px 30px rgba(99,102,241,0.08);
+  margin-left: 40px;
+}
+
+.tutor-avatar {
+  flex-shrink: 0;
+}
+
+.avatar-circle {
+  width: 96px;
+  height: 96px;
+  border-radius: 16px;
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #9ca3af;
+}
+
+.tutor-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 28px;
+  row-gap: 12px;
+  width: 100%;
+}
+
+.info-row {
+  display: contents;
+}
+
+.info-row span {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.info-row p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  margin: 0;
+}
+
+.send-msg {
+  color: #6366f1;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  width: 340px;
+}
+
+.modal h3 {
+  margin-bottom: 14px;
+  font-size: 16px;
+}
+
+.modal input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 13px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-actions button {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-actions .save {
+  background: #6366f1;
+  color: white;
+}
+
+.tutor-header {
+  position: relative;
+  z-index: 5;
+}
+
+.edit-btn {
+  position: relative;
+  z-index: 10;
+}

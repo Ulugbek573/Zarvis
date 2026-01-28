@@ -1,0 +1,166 @@
+.tasks-page {
+  background: linear-gradient(180deg, #f6f8ff, #eef2ff);
+  
+}
+
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-left: 40px;
+}
+
+.tasks-header h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.count {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.tasks-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: white;
+  padding: 6px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+
+.create-btn {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.filter-btn {
+  background: #f3f4f6;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tasks-card {
+  background: white;
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
+  margin-left: 40px;
+}
+
+.tasks-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.tasks-table th {
+  text-align: left;
+  font-size: 12px;
+  color: #6b7280;
+  padding-bottom: 8px;
+}
+
+.tasks-table td {
+  padding: 12px 0;
+  border-top: 1px solid #f1f1f1;
+  vertical-align: top;
+}
+
+.user-cell {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.user-cell img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: 500;
+}
+
+.user-phone {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.location {
+  font-size: 12px;
+  color: #374151;
+  max-width: 220px;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.icon-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #f3f4f6;
+}
+
+.icon-btn.edit {
+  color: #7c3aed;
+}
+
+.icon-btn.delete {
+  color: #ef4444;
+}
+
+.table-footer {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.pagination {
+  display: flex;
+  gap: 6px;
+}
+
+.pagination button {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: none;
+  background: #f3f4f6;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #6366f1;
+  color: white;
+}
